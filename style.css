@@ -1,0 +1,94 @@
+.column-c{
+    display: block;
+    gap: 15px;
+
+}
+
+.column{
+    border: 1px solid black;
+}
+
+.container{
+    margin: 3rem;
+}
+
+
+@media all and (min-width: 768px){
+    .column-c{
+        display: flex;
+        flex-direction: row;
+    }
+}
+
+.register{
+    background-color: coral;
+}
+
+th, td{
+    text-align: center;
+}
+
+#email{
+    display: block;
+    width: 99%;
+    margin: 0.5rem;
+}
+
+#passwd{
+    display: block;
+    width: 99%;
+    margin: 0.5rem;
+}
+
+#checkbox{
+    display: block;
+    width: 99%;
+    margin: 0.5rem;
+}
+
+#dropdown{
+    display: block;
+    width: 99%;
+    margin: 0.5rem;
+}
+
+#emailHelp{
+    color: darkgrey;
+}
+
+.radio{
+    display: inline-block;
+    margin: 0.5rem;
+}
+
+.btn-submit{
+    background-color: darkslateblue;
+    color: white;
+    padding: 0.5rem 1.5rem;
+    border-radius: 0.3rem;
+    margin: 0.5rem;
+}
+
+.btn-cancel{
+    background-color: transparent;
+    color: red;
+    padding: 0.5rem 1.5rem;
+    border-radius: 0.3rem;
+    margin: 0.5rem;
+}
+
+#tabel{
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    border: 1px solid #ddd;
+}
+
+th, td {
+    text-align: left;
+    padding: 16px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
