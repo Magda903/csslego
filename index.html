@@ -5,13 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CSS Lego</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div>
-        <div>
+    <div class="container">
+        <div class="column-c">
             <div>
                 <div>
-                    <div>
+                    <div class="column">
                         <h2>Column 1 of 3</h2>
                         <div>
                             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Expedita minima placeat quae natus obcaecati? Repudiandae eaque illum tempore porro. Est culpa commodi quibusdam, eos minus asperiores iusto quos laboriosam provident.</p>
@@ -24,7 +25,7 @@
             </div>
             <div>
                 <div>
-                    <div >
+                    <div class="column">
                         <h2>Column 2 of 3</h2>
                         <div>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut perspiciatis reiciendis facere quasi molestiae at autem incidunt ab cum nostrum quam rerum similique eius et blanditiis quibusdam ipsa, officia quo!</p>
@@ -37,7 +38,7 @@
             </div>
             <div>
                 <div>
-                    <div>
+                    <div class="column">
                         <h2>Column 3 of 3</h2>
                         <div>
                             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perspiciatis beatae repellat cum voluptatum, similique ratione nemo! Praesentium inventore quos fugiat. Atque autem eligendi eum voluptates neque possimus voluptate ratione perspiciatis.</p>
@@ -50,7 +51,7 @@
             </div>
         </div>
         <div>
-            <div>
+            <div class="register">
                 <h3>Register now!</h3>
                 <form>
                     <div>
@@ -77,18 +78,18 @@
                     </div>
                     <div>
                         <p>There are some other options:</p>
-                        <div><input type="radio" name="radios" id="radio-1" checked=""><label for="radio-1">Option 1</label></div>
-                        <div><input type="radio" name="radios" id="radio-2"><label for="radio-2">Option 2</label></div>
-                        <div><input type="radio" name="radios" id="radio-3"><label for="radio-3">Option 3</label></div>
+                        <div class="radio"><input type="radio" name="radios" id="radio-1" checked=""><label for="radio-1">Option 1</label></div>
+                        <div class="radio"><input type="radio" name="radios" id="radio-2"><label for="radio-2">Option 2</label></div>
+                        <div class="radio"><input type="radio" name="radios" id="radio-3"><label for="radio-3">Option 3</label></div>
                     </div>
-                    <button type="submit">Submit</button>
-                    <button type="cancel">Clear</button>
+                    <button class="btn-submit"   type="submit">Submit</button>
+                    <button class="btn-cancel"   type="cancel">Clear</button>
                 </form>
             </div>
         </div>
     </div>
     <div>
-        <table>
+        <table id="tabel">
             <thead>
                 <tr>
                     <th scope="col">Some</th>
